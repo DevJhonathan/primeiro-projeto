@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2? família = Bebas + Neue & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: #FFD83D;
+}
+
+#logo {
+    display: flex;
+    height: 35px;
+}
+
+#telefoneImg {
+    height: 25px;
+}
+
+#telefone {
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 10px;
+}
+
+#emailImg {
+    height: 25px;
+}
+
+#email {
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 10px;
+}
+
+.rede {
+    height: 25px;
+}
+
+.container {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .1s;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li:hover {
+    color: #000000;
+    background-color: #FFD83D;
+    border: 10px solid #FFD83D;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-ser {
+    background-image: url('https://static.ndmais.com.br/2021/08/istock-1205975744.jpg');
+    background-position: 50% 20%;
+    background-size: cover;
+    width: 100%;
+    height: 875px;
+    opacity: 0.5;
+}
+
+.instrutor-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.instrutor {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.inst {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.inst:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BOTBhMTI1NDQtYmU4Mi00MjYyLTk5MjEtZjllMDkxOWY3ZGRhXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Cruise_by_Gage_Skidmore_2.jpg/800px-Tom_Cruise_by_Gage_Skidmore_2.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/29/Preta_Gil_4_%28cropped%29.jpg');
+}
